@@ -34,7 +34,7 @@ def get_data(infilename):
 # ###############################################################
 
 aws_config_keys = [
-    "aws_access_key", "aws_secret_key", "source_ami", "ssh_username",
+    "aws_access_key", "aws_secret_key", "iam_instance_profile", "source_ami", "ssh_username",
     "vpc_id", "vpc_public_sg_id", "vpc_public_sn_id", "vpc_region"
 ]
 json_filename = "templates/vars.json"
